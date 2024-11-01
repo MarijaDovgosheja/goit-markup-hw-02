@@ -41,7 +41,7 @@ font-family: "Raleway", sans-serif;
         color: #2e2f42;
  }
 
- .contacts {
+ address {
     font-style: normal;
  }
 
@@ -82,7 +82,8 @@ font-weight: 700;
          background: #4d5ae5;
          cursor: pointer;
  }
-.btn:hover {
+.btn:hover,
+.btn:focus {
    background-color: #404bbf;
 }
 
