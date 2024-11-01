@@ -134,7 +134,9 @@ font-weight: 700;
  .team-list {} 
  
 
- .team-item {}
+ .team-item {
+   background-color: #fff;
+ }
 
 .team-photo {
    background: url("path_to_image");
@@ -158,12 +160,7 @@ font-weight: 700;
       text-align: center;
       color: #434455;
  }
- .team-photo,
- .team-name,
- .team-text {
-   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-      background-color: #fff;
- }
+ 
  .portfolio {}
 
  .portfolio-title {
@@ -178,9 +175,9 @@ font-weight: 700;
  .portfolio-list {}
 
  .portfolio-item {}
+ 
 
  .portfolio-icon {
-   background: url("path_to_image");
  }
 
  .portfolio-subtitle {
